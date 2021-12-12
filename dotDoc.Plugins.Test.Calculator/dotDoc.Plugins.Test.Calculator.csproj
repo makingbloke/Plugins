@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotDoc.Plugins.Test.CalculatorInterface\dotDoc.Plugins.Test.CalculatorInterface.csproj" />
+  </ItemGroup>
+
+</Project>
