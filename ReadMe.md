@@ -1,6 +1,6 @@
 # Plugins
 
-Copyright ©2021 Mike King.  
+Copyright ©2021-2022 Mike King.  
 Licensed using the MIT licence. See the License.txt file in the solution root for more information.  
 
 ## Overview
@@ -13,7 +13,7 @@ This solution uses .Net 6.0.
 
 ## Usage
 
-To create a plugin first create a two standard library projects, one containing the plugin interface and the other the plugin classes themselves. (See the dotDoc.Plugins.Test.CalculatorInterface / dotDoc.Plugins.Test.Calculator projects used by the unit tests for an example.)
+To create a plugin first create a two standard library projects, one containing the plugin interface and the other the plugin classes themselves. (See the DotDoc.Plugins.Test.CalculatorInterface / DotDoc.Plugins.Test.Calculator projects used by the unit tests for an example.)
 
 In the method that will host the plugins create an instance of the ```Plugin``` class. Pass in the path / filename of the plugin library. There is a static helper method in ```Plugin``` called ```GetPluginFileName``` which when passed a plugin name with no extension adds any prefix / suffix needed for the current platform e.g., a .dll suffix for Windows or a lib prefix and .so suffix for Linux.
 
